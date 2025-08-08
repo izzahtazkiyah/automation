@@ -4,7 +4,7 @@ import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 Given("User membuka halaman Login Page", () => {
   visit.visit();
 });
-When("User mengisi Klinik ID, Username, dan Password", () => {
+When("User mengisi Klinik ID, Username, dan Password yang valid", () => {
   login.validLogin();
 });
 Then(
