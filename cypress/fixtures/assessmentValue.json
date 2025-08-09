@@ -1,29 +1,6 @@
 {
-  "dev": {
-    "mint": {
-      "odonto": {},
-      "kia": {},
-      "kecantikan": {}
-    },
-    "lavender": {
-      "odonto": {},
-      "kia": {},
-      "kecantikan": {}
-    },
-    "tulip": {
-      "odonto": {},
-      "kia": {},
-      "kecantikan": {}
-    },
-    "lotus": {
-      "odonto": {},
-      "kia": {},
-      "kecantikan": {}
-    },
-    "iris": {
-      "odonto": {},
-      "kia": {},
-      "kecantikan": {}
-    }
-  }
+  "diagnosisSpesialistik": "",
+  "diagnosisNonSpesialistik": "A00",
+  "diagnosisDM": "",
+  "diagnosisHT": ""
 }
