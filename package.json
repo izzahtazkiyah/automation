@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Automation Medeva",
+  "main": "index.js",
+  "scripts": {
+    "cy": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.3.3",
+    "esbuild": "^0.25.4"
+  }
+}

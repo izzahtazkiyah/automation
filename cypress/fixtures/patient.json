@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "mint": {},
+    "lavender": {
+      "patient1": {
+        "name": "Kiki Salsabila T",
+        "nik": "3516152310008242",
+        "noka": "",
+        "normFaskes": "",
+        "normMedeva": "000569"
+      },
+      "patient2": {
+        "name": "Izzah Test",
+        "nik": "1211111111113522",
+        "noka": "",
+        "normFaskes": "1231211",
+        "normMedeva": "047642"
+      },
+      "patientBPJS1": {
+        "name": "Isak Manan",
+        "nik": "6471040504570002",
+        "noka": "0002032393735",
+        "normFaskes": "",
+        "normMedeva": "000005"
+      },
+      "patientBPJS2": {
+        "name": "Fatimah",
+        "nik": "6303074204450001",
+        "noka": "0002070634217",
+        "normFaskes": "",
+        "normMedeva": "000007"
+      }
+    },
+    "tulip": {},
+    "lotus": {},
+    "iris": {}
+  }
+}

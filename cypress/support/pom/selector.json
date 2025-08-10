@@ -1,0 +1,48 @@
+{
+  "login": {
+    "kodeAuth": "#kode_auth",
+    "username": "#input_login",
+    "password": "#password",
+    "loginButton": "button[type='submit']",
+    "successLogin": "Login sukses. Anda akan diarahkan ke halaman dashboard"
+  },
+  "kunjungan": {
+    "button": {
+      "kunjungan": "a[data-flag='queue']",
+      "kunjunganSakit": "a[href='/queue/kunjungan-sakit']",
+      "poli": {
+        "umum": "POLI UMUM"
+      },
+      "tanggal": "#date",
+      "praktisi": {
+        "jaga": "#id_jaga",
+        "select": ".react-select__option"
+      },
+      "add": "Tambah",
+      "pasien": {
+        "searchBy": {
+          "nama": "Nama",
+          "select": ".react-select__option"
+        },
+        "search": {
+          "id": "Pilih Pasien",
+          "select": ".react-select__option"
+        },
+        "jenisPembayaran": {
+          "mandiri": "#mandiri",
+          "asuransi": "#asuransi"
+        },
+        "pembayaran": {
+          "id": "Pilih Pembayaran",
+          "select": ".react-select__option"
+        },
+        "submit": {
+          "footer": ".modal-footer",
+          "type": "button",
+          "placeholder": "Tambah"
+        }
+      }
+    },
+    "success": "Tambah antrian berhasil"
+  }
+}
