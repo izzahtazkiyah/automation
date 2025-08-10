@@ -1,7 +1,0 @@
-{
-  "kodeAuth": "#kode_auth",
-  "username": "#input_login",
-  "password": "#password",
-  "loginButton": "button[type='submit']",
-  "successLogin": "div[role='alert']"
-}
