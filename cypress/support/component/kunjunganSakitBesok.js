@@ -2,7 +2,7 @@ const tomorrow = new Date();
 tomorrow.setDate(tomorrow.getDate() + 1);
 const day = tomorrow.getDate();
 
-export const KunjunganSakitTomorrow = ({ selector, practition, patient }) => {
+export const KunjunganSakitBesok = ({ selector, practition, patient }) => {
   cy.get(selector.kunjungan.button.kunjungan).click();
   cy.get(selector.kunjungan.button.kunjunganSakit).click();
   cy.contains(selector.kunjungan.button.poli.umum).click();

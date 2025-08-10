@@ -44,5 +44,11 @@
       }
     },
     "success": "Tambah antrian berhasil"
+  },
+  "pelayanan": {
+    "button": {
+      "pelayanan": "a[data-flag='record']",
+      "rekamMedis": "a[href='/record/medical']"
+    }
   }
 }

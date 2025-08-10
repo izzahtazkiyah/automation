@@ -3,7 +3,7 @@ import account from '../../../fixtures/account.json';
 import practition from '../../../fixtures/practition.json';
 import patient from '../../../fixtures/patient.json';
 import { Login } from '../../component/login';
-import { KunjunganSakitTomorrow } from '../../component/kunjunganSakitTomorrow';
+import { KunjunganSakitBesok } from '../../component/kunjunganSakitBesok';
 
 export const visit = {
   main: () => {
@@ -14,6 +14,6 @@ export const visit = {
 export const kunjungan = {
   sakit: () => {
     Login({ selector, account: account });
-    KunjunganSakitTomorrow({ selector, practition, patient });
+    KunjunganSakitBesok({ selector, practition, patient });
   },
 };
